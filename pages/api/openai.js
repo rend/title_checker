@@ -64,7 +64,6 @@ export default async (req, res) => {
   result = result.replace("\n4. ", "</td></tr><tr><td style='padding:15px'><strong>Title Number</strong></td><td style='padding:15px'>");
 
   let result2 = gptResponse2.data.choices[0].text;
-  console.log("RESULT 2" + result2);
   let proprietors = "</td></tr><tr><td style='padding:15px'><strong>Proprietors</strong></td><td style='padding:15px'>";
   result2 = proprietors.concat(result2);
   result2 = result2.replace("\n4.\n", "</td></tr><tr><td style='padding:15px'><strong>Restrictions</strong></td><td style='padding:15px'>");
@@ -80,7 +79,6 @@ export default async (req, res) => {
   result = result.concat(result2);
 
   let result3 = gptResponse3.data.choices[0].text;
-  console.log("RESULT 3" + result3);
   let registeredCharges = "</td></tr><tr><td style='padding:15px'><strong>Registered Charges</strong></td><td style='padding:15px'>";
   result3 = registeredCharges.concat(result3);
   result3 = result3.replace("\n4.\n", "</td></tr><tr><td style='padding:15px'><strong>Rights of Pre-emption</strong></td><td style='padding:15px'>");
