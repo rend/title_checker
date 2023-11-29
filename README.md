@@ -1,13 +1,9 @@
-1. read the extract and determine whether other docs are required?
-2. clean the other doc(s) text
-3. do the other docs actually relate to the original or has it been passed out?
-4. ask the original docs for any rights(benefits vs subjected) - insert fake one to show it what to do
-8. do the same as above for the other docs for any rights that others have
-10. Do the same for covenants / restrictions
-11. create text
+Demo project for QA extraction using GPT3 written in May 2022.
 
-11. (bonus point time) summarise email history and advise 
-    - all text on file history
-    - can we safely ignore anything?
-    - how much text are we talking?
-    
+Drop the text of a UK property register into the text area and hit 'Check' to extract the data from the register into a table.
+
+Clone the repo then npm install / npm run build / npm start to get going.
+
+You'll need a '.env.local' file with the 'OPENAI_API_KEY' set to a valid OpenAI key.
+
+Site built in Next.JS 
