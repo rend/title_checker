@@ -10,4 +10,6 @@ You'll need a '.env.local' file with the 'OPENAI_API_KEY' set to a valid OpenAI 
 
 Site built in Next.JS 
 
+Example:
+
 https://www.loom.com/share/4a35fab7dc9641f0a927fe0fe95e291f?sid=6c380828-179a-4147-a129-af374236fc8e
